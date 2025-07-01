@@ -10,3 +10,4 @@ xverse
 woe
 mlflow
 pytest
+flake8

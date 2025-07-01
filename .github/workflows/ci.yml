@@ -25,8 +25,8 @@ jobs:
 
       - name: Lint
         run: |
-          pip install ruff
-          ruff .
+          pip install flake8
+          flake8 .
 
       - name: Test
         run: |
