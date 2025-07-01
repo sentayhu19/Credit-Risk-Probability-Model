@@ -7,5 +7,7 @@ services:
     volumes:
       - ./src:/app/src:ro
       - ./artifacts:/app/artifacts:ro
+      - ./mlruns:/app/mlruns:ro
     environment:
       - PYTHONUNBUFFERED=1
+      - MLFLOW_TRACKING_URI=file:/app/mlruns
