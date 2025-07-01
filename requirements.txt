@@ -8,3 +8,5 @@ matplotlib>=3.8
 seaborn>=0.13
 xverse
 woe
+mlflow
+pytest
